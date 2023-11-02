@@ -1,0 +1,13 @@
+@media(max-width: 425px){
+    .footer{
+        flex-direction: column;
+        .titulo3{
+            font-size: 20px;
+        }
+    }
+    .subtitulo1{
+        a{
+            font-size: 10px;
+        }
+    }
+}

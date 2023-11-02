@@ -1,0 +1,753 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container-boxsets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15.625rem;
+  margin-left: 28.125rem; }
+  .container-boxsets figure {
+    margin-top: 30px; }
+    .container-boxsets figure a {
+      text-decoration: none; }
+    .container-boxsets figure .figure-caption {
+      color: black;
+      font-family: "slabo";
+      font-size: 18px;
+      width: fit-content; }
+      .container-boxsets figure .figure-caption:hover {
+        color: #1a56aa;
+        transition: 0.4s; }
+  .container-boxsets .btn {
+    transition: 0.6s; }
+
+.bannerboxsets {
+  margin-top: 70px; }
+
+body {
+  background-image: linear-gradient(to right top, #37075e, #5e005d, #7e0058, #99004f, #af0143); }
+
+.titulo {
+  color: black;
+  text-align: center;
+  font-family: "slabo";
+  margin-top: 3.125rem;
+  margin-bottom: 1.5625rem; }
+
+.container-mangas {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #3693CE;
+  align-items: center; }
+  .container-mangas .figure {
+    margin-left: 75px; }
+    .container-mangas .figure a {
+      text-decoration: none; }
+    .container-mangas .figure .btn {
+      background-color: #171A4F; }
+    .container-mangas .figure .figure-caption {
+      width: fit-content;
+      font-family: "slabo";
+      font-size: 18px;
+      color: black; }
+      .container-mangas .figure .figure-caption:hover {
+        color: #1a56aa;
+        transition: 0.4s; }
+
+.texto {
+  font: 35px "slabo";
+  text-align: center;
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem; }
+
+.editoriales {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: repeat(4, 1fr);
+  height: 6.25rem;
+  background-color: #48cae4;
+  align-items: center;
+  justify-items: center; }
+
+.icons {
+  display: flex;
+  margin-top: 15.625rem;
+  margin-bottom: 12.5rem;
+  gap: 6.25rem;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px; }
+  .icons p {
+    font-size: .9375rem;
+    padding: .5rem; }
+  .icons i {
+    position: relative;
+    bottom: 9.375rem; }
+
+.demografias {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-bottom: 12.5rem;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .demografias .btn {
+    position: relative;
+    right: 10.9375rem; }
+
+.titulo2 {
+  color: black;
+  text-align: center;
+  font-family: "slabo";
+  margin-bottom: 3.125rem;
+  font-size: calc(1.375rem + 1.5vw); }
+
+.container-mangas2 {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: repeat(4, 1fr);
+  background-image: linear-gradient(to right bottom, #90e0ef, #5bbfe1, #279dd3, #007ac2, #1a56aa);
+  align-items: center;
+  height: 31.25rem;
+  margin-bottom: 12.5rem; }
+  .container-mangas2 .figure {
+    margin-left: 75px; }
+    .container-mangas2 .figure a {
+      text-decoration: none; }
+    .container-mangas2 .figure .btn {
+      background-color: #171A4F; }
+    .container-mangas2 .figure .figure-caption {
+      width: fit-content;
+      font-family: "slabo";
+      font-size: 18px;
+      text-decoration-line: none;
+      color: black; }
+      .container-mangas2 .figure .figure-caption:hover {
+        color: #1a56aa;
+        transition: 0.4s; }
+    .container-mangas2 .figure .precioOriginal {
+      text-decoration: line-through; }
+    .container-mangas2 .figure .precioOferta {
+      color: #4f772d; }
+
+.container-mangas3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15.625rem;
+  margin-left: 28.125rem; }
+  .container-mangas3 figure {
+    margin-top: 30px; }
+    .container-mangas3 figure a {
+      text-decoration: none; }
+    .container-mangas3 figure .figure-caption {
+      color: black;
+      font-family: "slabo";
+      font-size: 18px;
+      width: fit-content; }
+      .container-mangas3 figure .figure-caption:hover {
+        color: #1a56aa;
+        transition: 0.4s; }
+  .container-mangas3 .btn {
+    transition: 0.6s; }
+
+.bannermangas {
+  margin-top: 70px; }
+
+.ofertas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15.625rem;
+  margin-left: 28.125rem; }
+  .ofertas figure {
+    margin-top: 30px; }
+    .ofertas figure a {
+      text-decoration: none; }
+    .ofertas figure .figure-caption {
+      color: black;
+      font-family: "slabo";
+      font-size: 18px;
+      width: fit-content; }
+      .ofertas figure .figure-caption:hover {
+        color: #1a56aa;
+        transition: 0.4s; }
+    .ofertas figure .precioOriginal {
+      text-decoration: line-through; }
+    .ofertas figure .precioOferta {
+      color: #4f772d; }
+  .ofertas .btn {
+    transition: 0.6s; }
+
+.bannerofertas {
+  margin-top: 70px; }
+
+.artbooks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15.625rem;
+  margin-left: 28.125rem; }
+  .artbooks figure {
+    margin-top: 30px; }
+    .artbooks figure a {
+      text-decoration: none; }
+    .artbooks figure .figure-caption {
+      color: black;
+      font-family: "slabo";
+      font-size: 18px;
+      width: fit-content; }
+      .artbooks figure .figure-caption:hover {
+        color: #1a56aa;
+        transition: 0.4s; }
+  .artbooks .btn {
+    transition: 0.6s; }
+
+.bannerartbooks {
+  margin-top: 70px; }
+
+.container-mangas4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15.625rem;
+  margin-left: 28.125rem; }
+  .container-mangas4 figure {
+    margin-top: 30px; }
+    .container-mangas4 figure a {
+      text-decoration: none; }
+    .container-mangas4 figure .figure-caption {
+      color: black;
+      font-family: "slabo";
+      font-size: 18px;
+      width: fit-content; }
+      .container-mangas4 figure .figure-caption:hover {
+        color: #1a56aa;
+        transition: 0.4s; }
+  .container-mangas4 .btn {
+    transition: 0.6s; }
+
+.bannernovelas {
+  margin-top: 70px; }
+
+.navbar {
+  background-color: #742380;
+  font-size: 20px; }
+  .navbar a:hover {
+    color: #CE3B8E;
+    transition: 0.4s; }
+  .navbar .nav-item a:hover {
+    color: #CE3B8E;
+    transition: 0.4s; }
+
+.footer .titulo3 {
+  font-size: 40px;
+  font-family: "slabo";
+  color: black; }
+
+.footer .subtitulo1 a {
+  text-decoration: 0;
+  color: black;
+  font-size: 20px; }
+  .footer .subtitulo1 a:hover {
+    color: #A83ABB;
+    transition: 0.4s; }
+
+.footer .subtitulo2 p {
+  font-size: 20px;
+  color: black; }
+
+@media (max-width: 1440px) {
+  .demografias .btn {
+    position: relative;
+    bottom: 238px;
+    left: 100px; } }
+
+@media (max-width: 1218px) {
+  .icons i {
+    position: relative;
+    bottom: 10.9375rem; } }
+
+@media (max-width: 1200px) {
+  .demografias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: unset; }
+    .demografias .btn {
+      position: relative;
+      bottom: 0;
+      left: -170px;
+      right: 0; }
+    .demografias .figure img {
+      margin-left: 100px; } }
+
+@media (max-width: 1020px) {
+  .container-mangas .figure {
+    margin-left: 20px; }
+    .container-mangas .figure .figure-caption {
+      font-size: 16px; }
+  .texto {
+    font-size: 30px; }
+  .icons {
+    display: flex;
+    flex-direction: column; }
+  .container-mangas2 .figure {
+    margin-left: 20px; }
+    .container-mangas2 .figure .figure-caption {
+      font-size: 16px; } }
+
+@media (max-width: 818px) {
+  .container-mangas .figure .figure-caption {
+    font-size: 14px; }
+  .texto {
+    font-size: 28px; } }
+
+@media (max-width: 768px) {
+  .demografias .btn {
+    left: 150px;
+    bottom: 250px; }
+  .demografias .figure img {
+    margin-left: 40px; } }
+
+@media (max-width: 650px) {
+  .container-mangas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  .container-mangas2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto; }
+    .container-mangas2 .figure img {
+      padding-top: 10px; }
+  .texto {
+    font-size: 22px; }
+  .demografias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    .demografias .figure img {
+      margin-left: 10px; }
+    .demografias .btn {
+      left: 100px; } }
+
+@media (max-width: 611px) {
+  .demografias {
+    display: flex;
+    flex-direction: column; }
+    .demografias .figure img {
+      margin-left: 50px; }
+    .demografias .btn {
+      left: -185px;
+      bottom: 0; } }
+
+@media (max-width: 417px) {
+  .demografias .btn {
+    left: 160px;
+    bottom: 260px; } }
+
+@media (max-width: 377px) {
+  .titulo {
+    font-size: 22px; }
+  .texto {
+    font-size: 18px; }
+  .titulo2 {
+    font-size: 22px; }
+  .container-mangas .figure .figure-caption {
+    font-size: 12px; } }
+
+@media (max-width: 1400px) {
+  .container-mangas3 {
+    margin-left: 250px; } }
+
+@media (max-width: 1200px) {
+  .container-mangas3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 350px; }
+    .container-mangas3 .Bakemonogatari {
+      padding-left: 80px; }
+    .container-mangas3 .slamdunk {
+      padding-left: 80px; }
+    .container-mangas3 .vagabond {
+      padding-left: 80px; } }
+
+@media (max-width: 1120px) {
+  .container-mangas3 {
+    margin-left: 250px; } }
+
+@media (max-width: 1040px) {
+  .container-mangas3 {
+    margin-left: 300px; }
+    .container-mangas3 figure img {
+      width: 225px;
+      height: 347px; } }
+
+@media (max-width: 992px) {
+  .container-mangas3 {
+    margin-left: 15.625rem; }
+    .container-mangas3 .Bakemonogatari {
+      padding-left: 40px; }
+    .container-mangas3 .slamdunk {
+      padding-left: 40px; }
+    .container-mangas3 .vagabond {
+      padding-left: 40px; } }
+
+@media (max-width: 850px) {
+  .container-mangas3 .Bakemonogatari {
+    padding-left: 0px; }
+  .container-mangas3 .slamdunk {
+    padding-left: 0px; }
+  .container-mangas3 .vagabond {
+    padding-left: 0px; } }
+
+@media (max-width: 768px) {
+  .container-mangas3 figure img {
+    width: 200px;
+    height: 320px; }
+  .container-mangas3 figure .figure-caption {
+    font-size: 16px; } }
+
+@media (max-width: 680px) {
+  .container-mangas3 {
+    margin-left: 100px; } }
+
+@media (max-width: 576px) {
+  .container-mangas3 {
+    margin-left: 50px; } }
+
+@media (max-width: 515px) {
+  .container-mangas3 figure img {
+    width: 180px;
+    height: 280px; } }
+
+@media (max-width: 450px) {
+  .container-mangas3 figure img {
+    width: 115px;
+    height: 167px; }
+  .container-mangas3 figure .figure-caption {
+    font-size: 14px; } }
+
+@media (max-width: 1400px) {
+  .container-mangas4 {
+    margin-left: 250px; } }
+
+@media (max-width: 1200px) {
+  .container-mangas4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 350px; }
+    .container-mangas4 .Bakemonogatari {
+      padding-left: 80px; }
+    .container-mangas4 .slamdunk {
+      padding-left: 80px; }
+    .container-mangas4 .vagabond {
+      padding-left: 80px; } }
+
+@media (max-width: 1120px) {
+  .container-mangas4 {
+    margin-left: 250px; } }
+
+@media (max-width: 1040px) {
+  .container-mangas4 {
+    margin-left: 300px; }
+    .container-mangas4 figure img {
+      width: 225px;
+      height: 347px; } }
+
+@media (max-width: 992px) {
+  .container-mangas4 {
+    margin-left: 15.625rem; }
+    .container-mangas4 .Bakemonogatari {
+      padding-left: 40px; }
+    .container-mangas4 .slamdunk {
+      padding-left: 40px; }
+    .container-mangas4 .vagabond {
+      padding-left: 40px; } }
+
+@media (max-width: 850px) {
+  .container-mangas4 .Bakemonogatari {
+    padding-left: 0px; }
+  .container-mangas4 .slamdunk {
+    padding-left: 0px; }
+  .container-mangas4 .vagabond {
+    padding-left: 0px; } }
+
+@media (max-width: 768px) {
+  .container-mangas4 figure img {
+    width: 200px;
+    height: 320px; }
+  .container-mangas4 figure .figure-caption {
+    font-size: 16px; } }
+
+@media (max-width: 680px) {
+  .container-mangas4 {
+    margin-left: 100px; } }
+
+@media (max-width: 576px) {
+  .container-mangas4 {
+    margin-left: 50px; } }
+
+@media (max-width: 515px) {
+  .container-mangas4 figure img {
+    width: 180px;
+    height: 280px; } }
+
+@media (max-width: 450px) {
+  .container-mangas4 figure img {
+    width: 115px;
+    height: 167px; }
+  .container-mangas4 figure .figure-caption {
+    font-size: 14px; } }
+
+@media (max-width: 1400px) {
+  .artbooks {
+    margin-left: 250px; } }
+
+@media (max-width: 1200px) {
+  .artbooks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 350px; }
+    .artbooks .Bakemonogatari {
+      padding-left: 80px; }
+    .artbooks .slamdunk {
+      padding-left: 80px; }
+    .artbooks .vagabond {
+      padding-left: 80px; } }
+
+@media (max-width: 1120px) {
+  .artbooks {
+    margin-left: 250px; } }
+
+@media (max-width: 1040px) {
+  .artbooks {
+    margin-left: 300px; }
+    .artbooks figure img {
+      width: 225px;
+      height: 347px; } }
+
+@media (max-width: 992px) {
+  .artbooks {
+    margin-left: 15.625rem; }
+    .artbooks .Bakemonogatari {
+      padding-left: 40px; }
+    .artbooks .slamdunk {
+      padding-left: 40px; }
+    .artbooks .vagabond {
+      padding-left: 40px; } }
+
+@media (max-width: 850px) {
+  .artbooks .Bakemonogatari {
+    padding-left: 0px; }
+  .artbooks .slamdunk {
+    padding-left: 0px; }
+  .artbooks .vagabond {
+    padding-left: 0px; } }
+
+@media (max-width: 768px) {
+  .artbooks figure img {
+    width: 200px;
+    height: 320px; }
+  .artbooks figure .figure-caption {
+    font-size: 16px; } }
+
+@media (max-width: 680px) {
+  .artbooks {
+    margin-left: 100px; } }
+
+@media (max-width: 576px) {
+  .artbooks {
+    margin-left: 50px; } }
+
+@media (max-width: 515px) {
+  .artbooks figure img {
+    width: 180px;
+    height: 280px; } }
+
+@media (max-width: 450px) {
+  .artbooks figure img {
+    width: 115px;
+    height: 167px; }
+  .artbooks figure .figure-caption {
+    font-size: 14px; } }
+
+@media (max-width: 1400px) {
+  .container-boxsets {
+    margin-left: 250px; } }
+
+@media (max-width: 1200px) {
+  .container-boxsets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 350px; }
+    .container-boxsets .Bakemonogatari {
+      padding-left: 80px; }
+    .container-boxsets .slamdunk {
+      padding-left: 80px; }
+    .container-boxsets .vagabond {
+      padding-left: 80px; } }
+
+@media (max-width: 1120px) {
+  .container-boxsets {
+    margin-left: 250px; } }
+
+@media (max-width: 1040px) {
+  .container-boxsets {
+    margin-left: 300px; }
+    .container-boxsets figure img {
+      width: 225px;
+      height: 347px; } }
+
+@media (max-width: 992px) {
+  .container-boxsets {
+    margin-left: 15.625rem; }
+    .container-boxsets .Bakemonogatari {
+      padding-left: 40px; }
+    .container-boxsets .slamdunk {
+      padding-left: 40px; }
+    .container-boxsets .vagabond {
+      padding-left: 40px; } }
+
+@media (max-width: 850px) {
+  .container-boxsets .Bakemonogatari {
+    padding-left: 0px; }
+  .container-boxsets .slamdunk {
+    padding-left: 0px; }
+  .container-boxsets .vagabond {
+    padding-left: 0px; } }
+
+@media (max-width: 768px) {
+  .container-boxsets figure img {
+    width: 200px;
+    height: 320px; }
+  .container-boxsets figure .figure-caption {
+    font-size: 16px; } }
+
+@media (max-width: 680px) {
+  .container-boxsets {
+    margin-left: 100px; } }
+
+@media (max-width: 576px) {
+  .container-boxsets {
+    margin-left: 50px; } }
+
+@media (max-width: 515px) {
+  .container-boxsets figure img {
+    width: 180px;
+    height: 280px; } }
+
+@media (max-width: 450px) {
+  .container-boxsets figure img {
+    width: 115px;
+    height: 167px; }
+  .container-boxsets figure .figure-caption {
+    font-size: 14px; } }
+
+@media (max-width: 1400px) {
+  .ofertas {
+    margin-left: 250px; } }
+
+@media (max-width: 1200px) {
+  .ofertas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 350px; }
+    .ofertas .spyxfamily {
+      padding-left: 80px; }
+    .ofertas .callofthenight {
+      padding-left: 80px; }
+    .ofertas .bakuman {
+      padding-left: 80px; }
+    .ofertas .firepunch {
+      padding-left: 80px; }
+    .ofertas .witchwatch {
+      padding-left: 80px; } }
+
+@media (max-width: 1120px) {
+  .ofertas {
+    margin-left: 250px; } }
+
+@media (max-width: 1040px) {
+  .ofertas {
+    margin-left: 300px; }
+    .ofertas figure img {
+      width: 225px;
+      height: 347px; } }
+
+@media (max-width: 992px) {
+  .ofertas {
+    margin-left: 15.625rem; }
+    .ofertas .spyxfamily {
+      padding-left: 40px; }
+    .ofertas .callofthenight {
+      padding-left: 40px; }
+    .ofertas .bakuman {
+      padding-left: 40px; }
+    .ofertas .firepunch {
+      padding-left: 40px; }
+    .ofertas .witchwatch {
+      padding-left: 40px; } }
+
+@media (max-width: 850px) {
+  .ofertas .spyxfamily {
+    padding-left: 0px; }
+  .ofertas .callofthenight {
+    padding-left: 0px; }
+  .ofertas .bakuman {
+    padding-left: 0px; }
+  .ofertas .firepunch {
+    padding-left: 0px; }
+  .ofertas .witchwatch {
+    padding-left: 0px; } }
+
+@media (max-width: 768px) {
+  .ofertas figure img {
+    width: 200px;
+    height: 320px; }
+  .ofertas figure .figure-caption {
+    font-size: 16px; } }
+
+@media (max-width: 680px) {
+  .ofertas {
+    margin-left: 100px; } }
+
+@media (max-width: 576px) {
+  .ofertas {
+    margin-left: 50px; } }
+
+@media (max-width: 515px) {
+  .ofertas figure img {
+    width: 180px;
+    height: 280px; } }
+
+@media (max-width: 450px) {
+  .ofertas figure img {
+    width: 115px;
+    height: 167px; }
+  .ofertas figure .figure-caption {
+    font-size: 14px; } }
+
+.footer .titulo3 {
+  font-family: "slabo";
+  font-size: 28px;
+  color: black; }
+
+.footer .subtitulo2 p {
+  font-family: "slabo";
+  font-size: 20px;
+  color: black; }
+
+.footer .subtitulo1 a {
+  font-family: "slabo";
+  font-size: 20px;
+  color: black; }
+
+@media (max-width: 377px) {
+  .titulo {
+    font-size: 22px; }
+  .texto {
+    font-size: 18px; }
+  .titulo2 {
+    font-size: 22px; }
+  .container-mangas .figure .figure-caption {
+    font-size: 12px; } }

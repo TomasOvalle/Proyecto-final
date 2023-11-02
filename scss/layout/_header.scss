@@ -1,0 +1,18 @@
+.navbar{
+    background-color: #742380;
+    font-size: 20px;
+    a{
+        &:hover{
+            color: #CE3B8E;
+            transition: 0.4s;
+        }
+    }
+    .nav-item{
+        a{
+            &:hover{
+                color: #CE3B8E;
+                transition: 0.4s;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@media(max-width: 650px){
+    .container-mangas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container-mangas2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
+        .figure{
+            img{
+                padding-top: 10px;
+            }
+        }
+    }
+    .texto{
+        font-size: 22px;
+    }
+    .demografias{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .figure{
+            img{
+                margin-left: 10px;
+            }
+        }
+        .btn{
+            left: 100px;
+        }
+    }
+    
+}

@@ -1,0 +1,13 @@
+@media(max-width: 768px){
+    .artbooks{
+        figure{
+            img{
+                width: 200px;
+                height: 320px;
+            }
+            .figure-caption{
+                font-size: 16px;
+            }
+        }
+    }
+}

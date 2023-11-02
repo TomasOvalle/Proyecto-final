@@ -1,0 +1,125 @@
+body{
+    background-image: linear-gradient(to right top, #37075e, #5e005d, #7e0058, #99004f, #af0143);
+}
+.titulo{
+    color: black;
+    text-align: center;
+    font-family: "slabo";
+    margin-top: 3.125rem;
+    margin-bottom: 1.5625rem;
+}
+.container-mangas{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #3693CE;
+    align-items: center;
+    .figure{
+        margin-left: 75px;
+        a{
+            text-decoration: none;
+        }
+        .btn{
+            background-color: #171A4F;
+        }
+        .figure-caption{
+            width: fit-content;
+            font-family: "slabo";
+            font-size: 18px;
+            color: black;
+            &:hover{
+                color: rgba(26, 86, 170, 1);
+                transition: 0.4s;
+            }
+        }
+    }
+}
+.texto{
+    font: $texto-font;
+    text-align: center;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+}
+.editoriales{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(4, 1fr);
+    height: 6.25rem;
+    background-color: rgba(72, 202, 228, 1);
+    align-items: center;
+    justify-items: center;
+}
+.icons{
+    display: flex;
+    margin-top: 15.625rem;
+    margin-bottom: 12.5rem;
+    gap: 6.25rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    p{
+        font-size: .9375rem;
+        padding: .5rem;
+    }
+    i{
+        position: relative;
+        bottom: 9.375rem;
+    }
+}
+.demografias{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 12.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .btn{
+        position: relative;
+        right: 10.9375rem;
+    }
+}
+.titulo2{
+    color: black;
+    text-align: center;
+    font-family: "slabo";
+    margin-bottom: 3.125rem;
+    font-size: calc(1.375rem + 1.5vw);
+}
+.container-mangas2{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(4, 1fr);
+    background-image: linear-gradient(to right bottom, #90e0ef, #5bbfe1, #279dd3, #007ac2, #1a56aa);
+    align-items: center;
+    height: 31.25rem;
+    margin-bottom: 12.5rem;
+    .figure{
+        margin-left: 75px;
+        a{
+            text-decoration: none;
+        }
+        .btn{
+            background-color: #171A4F;
+        }
+        .figure-caption{
+            width: fit-content;
+            font-family: "slabo";
+            font-size: 18px;
+            text-decoration-line: none;
+            color: black;
+            &:hover{
+                color: rgba(26, 86, 170, 1);
+                transition: 0.4s;
+            }
+        }
+        .precioOriginal{
+            text-decoration: line-through;
+        }
+        .precioOferta{
+            color: $precio-oferta;
+        }
+    }
+}
+

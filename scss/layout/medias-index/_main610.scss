@@ -1,0 +1,15 @@
+@media(max-width: 611px){
+    .demografias{
+        display: flex;
+        flex-direction: column;
+        .figure{
+            img{
+                margin-left: 50px;
+            }
+        }
+        .btn{
+            left: -185px;
+            bottom: 0;
+        }
+    }
+}

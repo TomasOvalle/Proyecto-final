@@ -1,0 +1,19 @@
+@media(max-width: 1200px){
+    .demografias{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: unset;
+        .btn{
+            position: relative;
+            bottom: 0;
+            left: -170px;
+            right: 0;
+            
+        }
+        .figure{
+            img{
+                margin-left: 100px;
+            }
+        }
+    }
+}

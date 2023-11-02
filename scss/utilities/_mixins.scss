@@ -1,0 +1,9 @@
+@mixin sizes($width, $height){
+    height: $height;
+    width: $width;
+}
+
+@mixin estilodeproducto{
+    text-decoration: none;
+    color: black;
+}

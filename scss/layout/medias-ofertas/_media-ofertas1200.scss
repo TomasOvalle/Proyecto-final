@@ -1,0 +1,22 @@
+@media(max-width: 1200px){
+    .ofertas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 350px;
+        .spyxfamily{
+            padding-left: 80px;
+        }
+        .callofthenight{
+            padding-left: 80px;
+        }
+        .bakuman{
+            padding-left: 80px;
+        }
+        .firepunch{
+            padding-left: 80px;
+        }
+        .witchwatch{
+            padding-left: 80px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@media(max-width: 1020px){
+    .container-mangas{
+        .figure{
+            margin-left: 20px;
+            .figure-caption{
+                font-size: 16px;
+            }
+        }
+    }
+    .texto{
+        font-size: 30px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-mangas2{
+        .figure{
+            margin-left: 20px;
+            .figure-caption{
+                font-size: 16px;
+            }
+        }
+    }
+}
