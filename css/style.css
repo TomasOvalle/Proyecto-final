@@ -258,6 +258,98 @@ body {
   font-size: 20px;
   color: black; }
 
+.container-seinen {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15.625rem;
+  margin-left: 28.125rem; }
+  .container-seinen figure {
+    margin-top: 30px; }
+    .container-seinen figure a {
+      text-decoration: none; }
+    .container-seinen figure .figure-caption {
+      color: black;
+      font-family: "slabo";
+      font-size: 18px;
+      width: fit-content; }
+      .container-seinen figure .figure-caption:hover {
+        color: #1a56aa;
+        transition: 0.4s; }
+  .container-seinen .btn {
+    transition: 0.6s; }
+
+.banner-seinen {
+  margin-top: 70px; }
+
+.container-shonen {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15.625rem;
+  margin-left: 28.125rem; }
+  .container-shonen figure {
+    margin-top: 30px; }
+    .container-shonen figure a {
+      text-decoration: none; }
+    .container-shonen figure .figure-caption {
+      color: black;
+      font-family: "slabo";
+      font-size: 18px;
+      width: fit-content; }
+      .container-shonen figure .figure-caption:hover {
+        color: #1a56aa;
+        transition: 0.4s; }
+  .container-shonen .btn {
+    transition: 0.6s; }
+
+.banner-shonen {
+  margin-top: 70px; }
+
+.container-shojo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15.625rem;
+  margin-left: 28.125rem; }
+  .container-shojo figure {
+    margin-top: 30px; }
+    .container-shojo figure a {
+      text-decoration: none; }
+    .container-shojo figure .figure-caption {
+      color: black;
+      font-family: "slabo";
+      font-size: 18px;
+      width: fit-content; }
+      .container-shojo figure .figure-caption:hover {
+        color: #1a56aa;
+        transition: 0.4s; }
+  .container-shojo .btn {
+    transition: 0.6s; }
+
+.banner-shojo {
+  margin-top: 70px; }
+
+.container-josei {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15.625rem;
+  margin-left: 28.125rem; }
+  .container-josei figure {
+    margin-top: 30px; }
+    .container-josei figure a {
+      text-decoration: none; }
+    .container-josei figure .figure-caption {
+      color: black;
+      font-family: "slabo";
+      font-size: 18px;
+      width: fit-content; }
+      .container-josei figure .figure-caption:hover {
+        color: #1a56aa;
+        transition: 0.4s; }
+  .container-josei .btn {
+    transition: 0.6s; }
+
+.banner-josei {
+  margin-top: 70px; }
+
 @media (max-width: 1440px) {
   .demografias .btn {
     position: relative;
@@ -725,6 +817,294 @@ body {
     width: 115px;
     height: 167px; }
   .ofertas figure .figure-caption {
+    font-size: 14px; } }
+
+@media (max-width: 1400px) {
+  .container-seinen {
+    margin-left: 250px; } }
+
+@media (max-width: 1200px) {
+  .container-seinen {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 350px; }
+    .container-seinen .another {
+      padding-left: 80px; }
+    .container-seinen .arte {
+      padding-left: 80px; }
+    .container-seinen .atelier {
+      padding-left: 80px; } }
+
+@media (max-width: 1120px) {
+  .container-seinen {
+    margin-left: 250px; } }
+
+@media (max-width: 1040px) {
+  .container-seinen {
+    margin-left: 300px; }
+    .container-seinen figure img {
+      width: 225px;
+      height: 347px; } }
+
+@media (max-width: 992px) {
+  .container-seinen {
+    margin-left: 15.625rem; }
+    .container-seinen .another {
+      padding-left: 40px; }
+    .container-seinen .arte {
+      padding-left: 40px; }
+    .container-seinen .atelier {
+      padding-left: 40px; } }
+
+@media (max-width: 850px) {
+  .container-seinen .another {
+    padding-left: 0px; }
+  .container-seinen .arte {
+    padding-left: 0px; }
+  .container-seinen .atelier {
+    padding-left: 0px; } }
+
+@media (max-width: 768px) {
+  .container-seinen figure img {
+    width: 200px;
+    height: 320px; }
+  .container-seinen figure .figure-caption {
+    font-size: 16px; } }
+
+@media (max-width: 680px) {
+  .container-seinen {
+    margin-left: 100px; } }
+
+@media (max-width: 576px) {
+  .container-seinen {
+    margin-left: 50px; } }
+
+@media (max-width: 515px) {
+  .container-seinen figure img {
+    width: 180px;
+    height: 280px; } }
+
+@media (max-width: 450px) {
+  .container-seinen figure img {
+    width: 115px;
+    height: 167px; }
+  .container-seinen figure .figure-caption {
+    font-size: 14px; } }
+
+@media (max-width: 1400px) {
+  .container-shonen {
+    margin-left: 250px; } }
+
+@media (max-width: 1200px) {
+  .container-shonen {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 350px; }
+    .container-shonen .Bakemonogatari {
+      padding-left: 80px; }
+    .container-shonen .slamdunk {
+      padding-left: 80px; }
+    .container-shonen .vagabond {
+      padding-left: 80px; } }
+
+@media (max-width: 1120px) {
+  .container-shonen {
+    margin-left: 250px; } }
+
+@media (max-width: 1040px) {
+  .container-shonen {
+    margin-left: 300px; }
+    .container-shonen figure img {
+      width: 225px;
+      height: 347px; } }
+
+@media (max-width: 992px) {
+  .container-shonen {
+    margin-left: 15.625rem; }
+    .container-shonen .Bakemonogatari {
+      padding-left: 40px; }
+    .container-shonen .slamdunk {
+      padding-left: 40px; }
+    .container-shonen .vagabond {
+      padding-left: 40px; } }
+
+@media (max-width: 850px) {
+  .container-shonen .Bakemonogatari {
+    padding-left: 0px; }
+  .container-shonen .slamdunk {
+    padding-left: 0px; }
+  .container-shonen .vagabond {
+    padding-left: 0px; } }
+
+@media (max-width: 768px) {
+  .container-shonen figure img {
+    width: 200px;
+    height: 320px; }
+  .container-shonen figure .figure-caption {
+    font-size: 16px; } }
+
+@media (max-width: 680px) {
+  .container-shonen {
+    margin-left: 100px; } }
+
+@media (max-width: 576px) {
+  .container-shonen {
+    margin-left: 50px; } }
+
+@media (max-width: 515px) {
+  .container-shonen figure img {
+    width: 180px;
+    height: 280px; } }
+
+@media (max-width: 450px) {
+  .container-shonen figure img {
+    width: 115px;
+    height: 167px; }
+  .container-shonen figure .figure-caption {
+    font-size: 14px; } }
+
+@media (max-width: 1400px) {
+  .container-shojo {
+    margin-left: 250px; } }
+
+@media (max-width: 1200px) {
+  .container-shojo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 350px; }
+    .container-shojo .Bakemonogatari {
+      padding-left: 80px; }
+    .container-shojo .slamdunk {
+      padding-left: 80px; }
+    .container-shojo .vagabond {
+      padding-left: 80px; } }
+
+@media (max-width: 1120px) {
+  .container-shojo {
+    margin-left: 250px; } }
+
+@media (max-width: 1040px) {
+  .container-shojo {
+    margin-left: 300px; }
+    .container-shojo figure img {
+      width: 225px;
+      height: 347px; } }
+
+@media (max-width: 992px) {
+  .container-shojo {
+    margin-left: 15.625rem; }
+    .container-shojo .Bakemonogatari {
+      padding-left: 40px; }
+    .container-shojo .slamdunk {
+      padding-left: 40px; }
+    .container-shojo .vagabond {
+      padding-left: 40px; } }
+
+@media (max-width: 850px) {
+  .container-shojo .Bakemonogatari {
+    padding-left: 0px; }
+  .container-shojo .slamdunk {
+    padding-left: 0px; }
+  .container-shojo .vagabond {
+    padding-left: 0px; } }
+
+@media (max-width: 768px) {
+  .container-shojo figure img {
+    width: 200px;
+    height: 320px; }
+  .container-shojo figure .figure-caption {
+    font-size: 16px; } }
+
+@media (max-width: 680px) {
+  .container-shojo {
+    margin-left: 100px; } }
+
+@media (max-width: 576px) {
+  .container-shojo {
+    margin-left: 50px; } }
+
+@media (max-width: 515px) {
+  .container-shojo figure img {
+    width: 180px;
+    height: 280px; } }
+
+@media (max-width: 450px) {
+  .container-shojo figure img {
+    width: 115px;
+    height: 167px; }
+  .container-shojo figure .figure-caption {
+    font-size: 14px; } }
+
+@media (max-width: 1400px) {
+  .container-josei {
+    margin-left: 250px; } }
+
+@media (max-width: 1200px) {
+  .container-josei {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 350px; }
+    .container-josei .Bakemonogatari {
+      padding-left: 80px; }
+    .container-josei .slamdunk {
+      padding-left: 80px; }
+    .container-josei .vagabond {
+      padding-left: 80px; } }
+
+@media (max-width: 1120px) {
+  .container-josei {
+    margin-left: 250px; } }
+
+@media (max-width: 1040px) {
+  .container-josei {
+    margin-left: 300px; }
+    .container-josei figure img {
+      width: 225px;
+      height: 347px; } }
+
+@media (max-width: 992px) {
+  .container-josei {
+    margin-left: 15.625rem; }
+    .container-josei .Bakemonogatari {
+      padding-left: 40px; }
+    .container-josei .slamdunk {
+      padding-left: 40px; }
+    .container-josei .vagabond {
+      padding-left: 40px; } }
+
+@media (max-width: 850px) {
+  .container-josei .Bakemonogatari {
+    padding-left: 0px; }
+  .container-josei .slamdunk {
+    padding-left: 0px; }
+  .container-josei .vagabond {
+    padding-left: 0px; } }
+
+@media (max-width: 768px) {
+  .container-josei figure img {
+    width: 200px;
+    height: 320px; }
+  .container-josei figure .figure-caption {
+    font-size: 16px; } }
+
+@media (max-width: 680px) {
+  .container-josei {
+    margin-left: 100px; } }
+
+@media (max-width: 576px) {
+  .container-josei {
+    margin-left: 50px; } }
+
+@media (max-width: 515px) {
+  .container-josei figure img {
+    width: 180px;
+    height: 280px; } }
+
+@media (max-width: 450px) {
+  .container-josei figure img {
+    width: 115px;
+    height: 167px; }
+  .container-josei figure .figure-caption {
     font-size: 14px; } }
 
 .footer .titulo3 {

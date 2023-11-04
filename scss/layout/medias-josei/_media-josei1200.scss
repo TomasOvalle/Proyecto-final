@@ -1,0 +1,16 @@
+@media(max-width: 1200px){
+    .container-josei{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 350px;
+        .Bakemonogatari{
+            padding-left: 80px;
+        }
+        .slamdunk{
+            padding-left: 80px;
+        }
+        .vagabond{
+            padding-left: 80px;
+        }
+    }
+}

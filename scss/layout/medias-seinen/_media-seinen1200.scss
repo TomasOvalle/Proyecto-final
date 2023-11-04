@@ -1,0 +1,16 @@
+@media(max-width: 1200px){
+    .container-seinen{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 350px;
+        .another{
+            padding-left: 80px;
+        }
+        .arte{
+            padding-left: 80px;
+        }
+        .atelier{
+            padding-left: 80px;
+        }
+    }
+}
