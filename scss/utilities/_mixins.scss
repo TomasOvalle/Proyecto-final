@@ -1,9 +1,16 @@
-@mixin sizes($width, $height){
-    height: $height;
-    width: $width;
+@mixin figure-caption-styles {
+    width: fit-content;
+    font-family: "slabo";
+    font-size: 18px;
+    color: black;
+}  
+.figure-caption {
+    @include figure-caption-styles;
 }
 
-@mixin estilodeproducto{
-    text-decoration: none;
-    color: black;
+@mixin grid-container-mangas3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 15.625rem;
+    margin-left: 28.125rem;
 }

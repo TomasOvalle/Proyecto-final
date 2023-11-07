@@ -1,3 +1,9 @@
+.figure-caption {
+  width: fit-content;
+  font-family: "slabo";
+  font-size: 18px;
+  color: black; }
+
 * {
   margin: 0;
   padding: 0;
@@ -139,20 +145,6 @@ body {
     .container-mangas2 .figure .precioOferta {
       color: #4f772d; }
 
-.footer .seccion-informacion {
-  padding-top: 50px;
-  padding-left: 300px; }
-  .footer .seccion-informacion .contactos {
-    width: 300px; }
-  .footer .seccion-informacion .politicas li a {
-    text-decoration: none; }
-    .footer .seccion-informacion .politicas li a:hover {
-      color: #3c1613;
-      transition: 0.6s; }
-
-.footer .Copyright a {
-  text-decoration: none; }
-
 .container-mangas3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -186,10 +178,10 @@ body {
     .ofertas figure a {
       text-decoration: none; }
     .ofertas figure .figure-caption {
-      color: black;
+      width: fit-content;
       font-family: "slabo";
       font-size: 18px;
-      width: fit-content; }
+      color: black; }
     .ofertas figure .editorial:hover {
       color: #1a56aa;
       transition: 0.6s; }
@@ -413,9 +405,23 @@ body {
     .container-bakemonogatari .div5 .figure-caption {
       width: 700px;
       height: 250px;
-      font-size: 16px;
+      font-size: 18px;
       color: black;
       font-family: "slabo"; }
+
+.footer .seccion-informacion {
+  padding-top: 50px;
+  padding-left: 300px; }
+  .footer .seccion-informacion .contactos {
+    width: 300px; }
+  .footer .seccion-informacion .politicas li a {
+    text-decoration: none; }
+    .footer .seccion-informacion .politicas li a:hover {
+      color: #3c1613;
+      transition: 0.6s; }
+
+.footer .Copyright a {
+  text-decoration: none; }
 
 @media (max-width: 1440px) {
   .demografias .btn {
@@ -1173,6 +1179,20 @@ body {
     height: 167px; }
   .container-josei figure .figure-caption {
     font-size: 14px; } }
+
+@media (max-width: 992px) {
+  .footer .seccion-informacion {
+    padding-left: 0; } }
+
+@media (max-width: 768px) {
+  .footer .seccion-informacion .contactos {
+    width: 516px; } }
+
+@media (max-width: 1370px) {
+  .container-bakemonogatari .div1 .Bakemonogatari {
+    margin-left: 50px; }
+  .container-bakemonogatari .div5 .figure-caption {
+    font-size: 15px; } }
 
 @media (max-width: 377px) {
   .titulo {

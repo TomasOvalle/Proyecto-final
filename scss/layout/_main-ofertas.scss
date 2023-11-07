@@ -1,18 +1,12 @@
 .ofertas{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 15.625rem;
-    margin-left: 28.125rem;
+    @include grid-container-mangas3;
     figure{
         margin-top: 30px;
         a{
             text-decoration: none;
         }
         .figure-caption{
-            color: black;
-            font-family: "slabo";
-            font-size: 18px;
-            width: fit-content;
+            @include figure-caption-styles;
         }
         .editorial{
             &:hover{
@@ -21,10 +15,10 @@
             }
         }
         .precioOriginal{
-            text-decoration: line-through;
+            text-decoration: $precio-original;
         }
         .precioOferta{
-            color: #4f772d;
+            color: $precio-oferta;
         }
     }
     .btn{
