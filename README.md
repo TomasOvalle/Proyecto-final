@@ -25,5 +25,5 @@
 
 - **Nombre de la Empresa:** MangaHaven
 - **Correo Electrónico:** MangaHaven@gmail.com
-- **Sitio Web:**
+- **Sitio Web:** https://654a9320ace39608fb5da39b--mellow-malasada-dcdd0b.netlify.app/
 ¡Gracias por elegir nuestra página de venta de mangas!
