@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box; }
 
+nav .pagination {
+  margin-top: 100px;
+  margin-bottom: 40px; }
+
 .container-boxsets {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -17,9 +21,9 @@
       font-family: "slabo";
       font-size: 18px;
       width: fit-content; }
-      .container-boxsets figure .figure-caption:hover {
-        color: #1a56aa;
-        transition: 0.4s; }
+    .container-boxsets figure .editorial:hover {
+      color: #1a56aa;
+      transition: 0.6s; }
   .container-boxsets .btn {
     transition: 0.6s; }
 
@@ -53,9 +57,9 @@ body {
       font-family: "slabo";
       font-size: 18px;
       color: black; }
-      .container-mangas .figure .figure-caption:hover {
-        color: #1a56aa;
-        transition: 0.4s; }
+    .container-mangas .figure .editorial:hover {
+      color: #1a56aa;
+      transition: 0.6s; }
 
 .texto {
   font: 35px "slabo";
@@ -127,13 +131,27 @@ body {
       font-size: 18px;
       text-decoration-line: none;
       color: black; }
-      .container-mangas2 .figure .figure-caption:hover {
-        color: #1a56aa;
-        transition: 0.4s; }
+    .container-mangas2 .figure .editorial:hover {
+      color: #1a56aa;
+      transition: 0.6s; }
     .container-mangas2 .figure .precioOriginal {
       text-decoration: line-through; }
     .container-mangas2 .figure .precioOferta {
       color: #4f772d; }
+
+.footer .seccion-informacion {
+  padding-top: 50px;
+  padding-left: 300px; }
+  .footer .seccion-informacion .contactos {
+    width: 300px; }
+  .footer .seccion-informacion .politicas li a {
+    text-decoration: none; }
+    .footer .seccion-informacion .politicas li a:hover {
+      color: #3c1613;
+      transition: 0.6s; }
+
+.footer .Copyright a {
+  text-decoration: none; }
 
 .container-mangas3 {
   display: grid;
@@ -149,9 +167,9 @@ body {
       font-family: "slabo";
       font-size: 18px;
       width: fit-content; }
-      .container-mangas3 figure .figure-caption:hover {
-        color: #1a56aa;
-        transition: 0.4s; }
+    .container-mangas3 figure .editorial:hover {
+      color: #1a56aa;
+      transition: 0.6s; }
   .container-mangas3 .btn {
     transition: 0.6s; }
 
@@ -172,9 +190,9 @@ body {
       font-family: "slabo";
       font-size: 18px;
       width: fit-content; }
-      .ofertas figure .figure-caption:hover {
-        color: #1a56aa;
-        transition: 0.4s; }
+    .ofertas figure .editorial:hover {
+      color: #1a56aa;
+      transition: 0.6s; }
     .ofertas figure .precioOriginal {
       text-decoration: line-through; }
     .ofertas figure .precioOferta {
@@ -199,9 +217,9 @@ body {
       font-family: "slabo";
       font-size: 18px;
       width: fit-content; }
-      .artbooks figure .figure-caption:hover {
-        color: #1a56aa;
-        transition: 0.4s; }
+    .artbooks figure .editorial:hover {
+      color: #1a56aa;
+      transition: 0.6s; }
   .artbooks .btn {
     transition: 0.6s; }
 
@@ -222,9 +240,9 @@ body {
       font-family: "slabo";
       font-size: 18px;
       width: fit-content; }
-      .container-mangas4 figure .figure-caption:hover {
-        color: #1a56aa;
-        transition: 0.4s; }
+    .container-mangas4 figure .editorial:hover {
+      color: #1a56aa;
+      transition: 0.6s; }
   .container-mangas4 .btn {
     transition: 0.6s; }
 
@@ -234,29 +252,21 @@ body {
 .navbar {
   background-color: #742380;
   font-size: 20px; }
-  .navbar a:hover {
-    color: #CE3B8E;
-    transition: 0.4s; }
-  .navbar .nav-item a:hover {
-    color: #CE3B8E;
-    transition: 0.4s; }
-
-.footer .titulo3 {
-  font-size: 40px;
-  font-family: "slabo";
-  color: black; }
-
-.footer .subtitulo1 a {
-  text-decoration: 0;
-  color: black;
-  font-size: 20px; }
-  .footer .subtitulo1 a:hover {
-    color: #A83ABB;
-    transition: 0.4s; }
-
-.footer .subtitulo2 p {
-  font-size: 20px;
-  color: black; }
+  .navbar a {
+    color: black; }
+    .navbar a:hover {
+      color: #CE3B8E;
+      transition: 0.6s; }
+  .navbar .nav-item {
+    color: black; }
+    .navbar .nav-item a:hover {
+      color: #CE3B8E;
+      transition: 0.6s; }
+  .navbar form .btn {
+    background-color: #ff575c; }
+    .navbar form .btn:hover {
+      color: #e60050;
+      transition: 0.6s; }
 
 .container-seinen {
   display: grid;
@@ -272,9 +282,9 @@ body {
       font-family: "slabo";
       font-size: 18px;
       width: fit-content; }
-      .container-seinen figure .figure-caption:hover {
-        color: #1a56aa;
-        transition: 0.4s; }
+    .container-seinen figure .editorial:hover {
+      color: #1a56aa;
+      transition: 0.4s; }
   .container-seinen .btn {
     transition: 0.6s; }
 
@@ -295,9 +305,9 @@ body {
       font-family: "slabo";
       font-size: 18px;
       width: fit-content; }
-      .container-shonen figure .figure-caption:hover {
-        color: #1a56aa;
-        transition: 0.4s; }
+    .container-shonen figure .editorial:hover {
+      color: #1a56aa;
+      transition: 0.6s; }
   .container-shonen .btn {
     transition: 0.6s; }
 
@@ -318,9 +328,9 @@ body {
       font-family: "slabo";
       font-size: 18px;
       width: fit-content; }
-      .container-shojo figure .figure-caption:hover {
-        color: #1a56aa;
-        transition: 0.4s; }
+    .container-shojo figure .editorial:hover {
+      color: #1a56aa;
+      transition: 0.6s; }
   .container-shojo .btn {
     transition: 0.6s; }
 
@@ -341,9 +351,9 @@ body {
       font-family: "slabo";
       font-size: 18px;
       width: fit-content; }
-      .container-josei figure .figure-caption:hover {
-        color: #1a56aa;
-        transition: 0.4s; }
+    .container-josei figure .editorial:hover {
+      color: #1a56aa;
+      transition: 0.6s; }
   .container-josei .btn {
     transition: 0.6s; }
 
@@ -371,9 +381,11 @@ body {
   .container-bakemonogatari .div2 {
     width: fit-content; }
     .container-bakemonogatari .div2 h1 {
-      margin-top: 50px; }
+      margin-top: 50px;
+      font-family: "slabo"; }
     .container-bakemonogatari .div2 h2 {
-      color: #ff9f94; }
+      color: #ff9f94;
+      font-family: "slabo"; }
   .container-bakemonogatari .div3 {
     width: 700px;
     height: fit-content; }
@@ -387,6 +399,8 @@ body {
     bottom: 100px;
     height: fit-content;
     width: 700px; }
+    .container-bakemonogatari .div4 p {
+      font-family: "slabo"; }
   .container-bakemonogatari .div5 {
     height: 250px;
     width: 700px;
@@ -394,12 +408,14 @@ body {
     bottom: 200px; }
     .container-bakemonogatari .div5 h3 {
       width: 700px;
-      color: black; }
+      color: black;
+      font-family: "slabo"; }
     .container-bakemonogatari .div5 .figure-caption {
       width: 700px;
       height: 250px;
       font-size: 16px;
-      color: black; }
+      color: black;
+      font-family: "slabo"; }
 
 @media (max-width: 1440px) {
   .demografias .btn {
@@ -1157,21 +1173,6 @@ body {
     height: 167px; }
   .container-josei figure .figure-caption {
     font-size: 14px; } }
-
-.footer .titulo3 {
-  font-family: "slabo";
-  font-size: 28px;
-  color: black; }
-
-.footer .subtitulo2 p {
-  font-family: "slabo";
-  font-size: 20px;
-  color: black; }
-
-.footer .subtitulo1 a {
-  font-family: "slabo";
-  font-size: 20px;
-  color: black; }
 
 @media (max-width: 377px) {
   .titulo {

@@ -2,16 +2,27 @@
     background-color: #742380;
     font-size: 20px;
     a{
+        color: black;
         &:hover{
             color: #CE3B8E;
-            transition: 0.4s;
+            transition: 0.6s;
         }
     }
     .nav-item{
+        color: black;
         a{
             &:hover{
                 color: #CE3B8E;
-                transition: 0.4s;
+                transition: 0.6s;
+            }
+        }
+    }
+    form{
+        .btn{
+            background-color: #ff575c;
+            &:hover{
+                color: #e60050;
+                transition: 0.6s;
             }
         }
     }

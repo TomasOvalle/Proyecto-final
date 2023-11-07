@@ -27,9 +27,11 @@ body{
             font-family: "slabo";
             font-size: 18px;
             color: black;
+        }
+        .editorial{
             &:hover{
                 color: rgba(26, 86, 170, 1);
-                transition: 0.4s;
+                transition: 0.6s;
             }
         }
     }
@@ -109,9 +111,11 @@ body{
             font-size: 18px;
             text-decoration-line: none;
             color: black;
+        }
+        .editorial{
             &:hover{
                 color: rgba(26, 86, 170, 1);
-                transition: 0.4s;
+                transition: 0.6s;
             }
         }
         .precioOriginal{
@@ -119,6 +123,31 @@ body{
         }
         .precioOferta{
             color: $precio-oferta;
+        }
+    }
+}
+.footer{
+    .seccion-informacion{
+        padding-top: 50px;
+        padding-left: 300px;
+        .contactos{
+            width: 300px;
+        }
+        .politicas{
+            li{
+                a{
+                    text-decoration: none;
+                    &:hover{
+                        color: #3c1613;
+                        transition: 0.6s;
+                    }
+                }
+            }
+        }
+    }
+    .Copyright{
+        a{
+            text-decoration: none;
         }
     }
 }

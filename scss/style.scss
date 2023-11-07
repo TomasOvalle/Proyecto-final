@@ -3,6 +3,8 @@
 
 @import "./base/reset";
 
+@import "./components/pagination";
+
 @import "./layout/main-novelas";
 @import "./layout/main-index";
 @import "./layout/main-mangas";
@@ -10,7 +12,6 @@
 @import "./layout/main-artbooks";
 @import "./layout/main-boxsets";
 @import "./layout/header";
-@import "./layout/footer";
 @import "./layout/main-seinen";
 @import "./layout/main-shonen";
 @import "./layout/main-shojo";
@@ -137,6 +138,5 @@
 @import "./layout/medias-josei/media-josei450";
 
 
-@import "./layout/medias-index/mainfooter768";
 @import "./layout/medias-index/media377";
 

@@ -20,9 +20,11 @@
         width: fit-content;
         h1{
             margin-top: 50px;
+            font-family: "slabo";
         }
         h2{
             color: #ff9f94;
+            font-family: "slabo";
         }
     }
     .div3{
@@ -41,6 +43,9 @@
         bottom: 100px;
         height: fit-content;
         width: 700px;
+        p{
+            font-family: "slabo";
+        }
     }
     .div5{
         height: 250px;
@@ -50,12 +55,14 @@
         h3{
             width: 700px;
             color: black;
+            font-family: "slabo";
         }
         .figure-caption{
             width: 700px;
             height: 250px;
             font-size: 16px;
             color: black;
+            font-family: "slabo";
         }
     }
 }
